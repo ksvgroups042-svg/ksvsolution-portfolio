@@ -990,6 +990,10 @@ footer{
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
 }
 footer p{font-size:0.68rem;color:rgba(255,255,255,0.18);font-weight:500}
+.f-contact-info{display:flex;align-items:center;flex-wrap:wrap;gap:0.6rem}
+.f-contact-link{font-size:0.72rem;font-weight:700;color:var(--e2);text-decoration:none;transition:all 0.3s ease;letter-spacing:0.5px}
+.f-contact-link:hover{color:var(--e4);text-shadow:0 0 12px rgba(0,195,255,0.8);transform:translateY(-1px)}
+.f-contact-divider{color:rgba(255,255,255,0.12);font-weight:700}
 
 /* ══════════════════════════════════════════
    SCROLL TO TOP
@@ -1464,7 +1468,11 @@ footer p{font-size:0.68rem;color:rgba(255,255,255,0.18);font-weight:500}
     <div class="f-logo">KSV <span>Solutions</span></div>
   </div>
   <p>© 2026 KSV Solutions Digital Services. All rights reserved.</p>
-  <p>ksvvishnu966@gmail.com · +91 9944 555 042</p>
+  <p class="f-contact-info">
+    <a href="mailto:ksvvishnu966@gmail.com" class="f-contact-link">ksvvishnu966@gmail.com</a>
+    <span class="f-contact-divider">·</span>
+    <a href="tel:+919944555042" class="f-contact-link">+91 9944 555 042</a>
+  </p>
 </footer>
 
 <!-- SCROLL TO TOP -->
